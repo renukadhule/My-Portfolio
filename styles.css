@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #221c58;
+    color: #fff;
+    padding: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #3d123b;
+    padding: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 2rem 2rem 2rem 5rem;
+}
+
+.project {
+    margin: 5rem;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #381740;
+    color: #fff;
+    padding: 1rem;
+}
+
+/* Style for the download button */
+a[download] {
+    display: inline-block;
+    background-color: #7a1649;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+a[download]:hover {
+    background-color: #12675f;
+}
+#about{
+    line-height: 2;
+    
+}
+p{
+    font-size: 5 rem;    
+}
+.skills {
+    margin: 5rem;
+    line-height: 1.8;
+}
